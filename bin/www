@@ -3,8 +3,8 @@
 import app from '../app'
 var fs = require('fs');
 var https = require('https');
-var key = fs.readFileSync('./ca/hacksparrow-key.pem');
-var cert = fs.readFileSync('./ca/hacksparrow-cert.pem');
+var key = fs.readFileSync('./ca/jjsz123.key');
+var cert = fs.readFileSync('./ca/jjsz123.crt');
 var https_options = {
     key: key,
     cert: cert
